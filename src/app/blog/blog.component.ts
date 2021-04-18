@@ -9,7 +9,7 @@ import {map} from "rxjs/operators";
 })
 export class BlogComponent {
 
-  $blogPosts = this.scully.available$.pipe(
+  public $blogPosts = this.scully.available$.pipe(
     map(routes =>
       routes.filter(
         (route) =>
