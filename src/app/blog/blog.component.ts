@@ -19,6 +19,4 @@ export class BlogComponent {
   );
 
   constructor(private scully: ScullyRoutesService) {}
-
-
 }
