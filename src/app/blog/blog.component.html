@@ -1,0 +1,7 @@
+<mat-list>
+  <mat-list-item *ngFor="let blog of $blogPosts | async">
+    <a [routerLink]="blog.route">
+      {{blog.title}} by {{blog.authorName}}
+    </a>
+  </mat-list-item>
+</mat-list>
