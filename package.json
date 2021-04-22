@@ -13,7 +13,7 @@
     "scully": "scully",
     "scully:all": "npm run build:prod && npm run scully -- --scanRoutes && npm run scully:serve",
     "scully:serve": "scully serve",
-    "deploy": "ng deploy"
+    "deploy": "ng deploy --base-href=/blog/"
   },
   "private": true,
   "dependencies": {
